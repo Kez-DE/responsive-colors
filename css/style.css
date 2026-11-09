@@ -42,15 +42,17 @@ img{
     div{
         width: 45vw;
         display: inline-block;
+        vertical-align: top;
     }    
     img{
+        box-sizing: border-box;
         max-height: 30vh;
     }
 }
 
 
 
-@media screen and (min-width: 972px) {
+@media screen and (min-width: 998px) {
     div{
         width: 30vw;
     }     
